@@ -10,7 +10,7 @@ class EmailValidatorTest {
 
     @Test
     fun emailValidator_CorrectEmailSimple_ReturnsTrue() {
-        Assert.assertTrue(emailValidator.isEmailValid("name@email.com"))
+        Assert.assertTrue(emailValidator.isEmailValid("Name@email.com"))
     }
 
     @Test
