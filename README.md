@@ -30,3 +30,10 @@ Currently, the project contains unit tests for the following authentication logi
 ### GitHub Action Pipeline
 
 The repository is using GitHub Action as the continuous integration (CI) pipeline. As of now, the pipeline executes the unit tests using `./gradlew testDebugUnitTest`.
+
+<br>
+
+### Passed and Failed Pipeline
+
+- [master](https://github.com/asadmansr/android-test-report-action-example) branch: Passed pipeline as all the tests passed
+- [failed-pipeline](https://github.com/asadmansr/android-test-report-action-example/tree/failed-pipeline) branch: Failed pipeline as some of the tests failed
