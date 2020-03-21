@@ -17,4 +17,4 @@ jobs:
         continue-on-error: true # IMPORTANT: allow pipeline to continue to Android Test Report step
 
       - name: Android Test Report
-        uses: asadmansr/android-test-report-action@master
+        uses: asadmansr/android-test-report-action@v1.1.0
