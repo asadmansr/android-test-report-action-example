@@ -22,4 +22,9 @@ class EmailValidatorTest {
     fun emailValidator_EmptyEmailSimple_ReturnFalse() {
         Assert.assertFalse(emailValidator.isEmailValid(""))
     }
+
+    @Test
+    fun emailValidator_failedTest() {
+        Assert.assertEquals(4, 2+3)
+    }
 }
