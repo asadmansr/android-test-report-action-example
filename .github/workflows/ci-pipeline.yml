@@ -24,6 +24,7 @@ jobs:
   report:
     runs-on: ubuntu-latest
     needs: test # Run after test job
+    if: ${{ always() }}
     steps:
       - name: Download Test Reports Folder
         uses: actions/download-artifact@v2
